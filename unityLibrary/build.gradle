@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+﻿apply plugin: 'com.android.library'
 apply from: '../shared/keepUnitySymbols.gradle'
 apply from: '../shared/common.gradle'
 
@@ -108,7 +108,7 @@ tasks.register('buildIl2Cpp') {
 android {
     sourceSets {
         main {
-            jni.srcDirs = ["src/main/Il2CppOutputProject"]
+            jni.srcDirs = []
         }
     }
 }
@@ -227,4 +227,6 @@ def execCommand(String workDir, List<String> command, Map<String, String> env = 
         println "$stdout\n$stderr"
     }
 }
-
+
+tasks.named('buildIl2Cpp').configure { enabled = false }
+
