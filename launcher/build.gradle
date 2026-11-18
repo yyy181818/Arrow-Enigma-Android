@@ -8,7 +8,7 @@ dependencies {
 }
 
 android {
-    namespace "com.TexaStudio.ArrowEnigma"
+    namespace "com.TexaStudio.ArrowEnigma2026"
     ndkPath "D:/unity6/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "27.2.12479018"
     compileSdk 36
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.TexaStudio.ArrowEnigma"
+        applicationId "com.TexaStudio.ArrowEnigma2026"
         versionName "1.0.0"
         minSdk 29
         targetSdk 36
