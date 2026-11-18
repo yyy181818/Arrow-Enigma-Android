@@ -8,7 +8,7 @@ dependencies {
 }
 
 android {
-    namespace "com.TexaStudio.RiddleShot"
+    namespace "com.texastudio.riddleshot.k7m2x"
     ndkPath "D:/unity6/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "27.2.12479018"
     compileSdk 36
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.TexaStudio.RiddleShot"
+        applicationId "com.texastudio.riddleshot.k7m2x"
         versionName "1.0.0"
         minSdk 29
         targetSdk 36
